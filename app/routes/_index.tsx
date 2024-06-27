@@ -12,30 +12,19 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix on Cloudflare</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/docs"
-            rel="noreferrer"
-          >
-            Remix Docs
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-remix-site/"
-            rel="noreferrer"
-          >
-            Cloudflare Pages Docs - Remix guide
-          </a>
-        </li>
-      </ul>
+    <div className="font-serif p-4 w-full bg-gray-100 h-screen text-gray-800">
+      <div className="max-w-[1024px] m-auto p-20 ">
+        <h1 className="text-3xl font-semibold">Designs for Ghost.org templates</h1>
+        <h2 className='py-6 text-lg'>We create delightful designs for the Ghost ecosystem. Get in touch here.</h2>
+        <div className="mt-12 grid gap-6 grid-cols-3 ">
+          <div className="w-40 h-40 bg-red-400"></div>
+          <div className="w-40 h-40 bg-red-400"></div>
+          <div className="w-40 h-40 bg-red-400"></div>
+          <div className="w-40 h-40 bg-red-400"></div>
+          <div className="w-40 h-40 bg-red-400"></div>
+          <div className="w-40 h-40 bg-red-400"></div>
+          </div>
+      </div>
     </div>
   );
 }
